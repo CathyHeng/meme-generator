@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Meme Generator</h1>
+        
+        <div class="main-layout">
+            <!-- Left Column: Image Selection -->
+            <div class="left-column">
+                <!-- Upload Section -->
+                <div class="upload-section">
+                    <h2>Upload Image</h2>
+                    <div class="upload-area">
+                        <input type="file" id="image-upload" accept="image/*">
+                        <label for="image-upload" class="upload-label">
+                            <span>Click to Upload Image</span>
+                            <span class="upload-hint">or drag and drop</span>
+                        </label>
+                    </div>
+                </div>
+
+                <!-- Template Gallery -->
+                <div class="template-section">
+                    <h2>Choose Template</h2>
+                    <div class="template-gallery">
+                        <img src="always-has-been.jpg" alt="Always Has Been" class="template-img" data-template="astronaut">
+                        <img src="https://i.imgflip.com/wxica.jpg" alt="This Is Fine" class="template-img" data-template="fine">
+                        <img src="https://i.imgflip.com/30b1gx.jpg" alt="Drake Hotline Bling" class="template-img" data-template="drake">
+                        <img src="https://i.imgflip.com/265k.jpg" alt="Mocking Spongebob" class="template-img" data-template="mocking-spongebob">
+                        <img src="https://i.imgflip.com/1g8my4.jpg" alt="Distracted Boyfriend" class="template-img" data-template="distracted-boyfriend">
+                        <img src="https://i.imgflip.com/23ls.jpg" alt="Disaster Girl" class="template-img" data-template="disaster">
+                        <img src="https://i.imgflip.com/9ehk.jpg" alt="Expanding Brain" class="template-img" data-template="brain">
+                        <img src="https://i.imgflip.com/24y43o.jpg" alt="Change My Mind" class="template-img" data-template="mind">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right Column: Editor -->
+            <div class="right-column">
+                <!-- Canvas Area -->
+                <div class="canvas-container">
+                    <canvas id="meme-canvas"></canvas>
+                    <div class="placeholder" id="canvas-placeholder">
+                        <p>Preview your meme</p>
+                    </div>
+                    <div class="drag-hint" id="drag-hint">💡 Tip: Drag to move • Hold Shift + Drag to rotate</div>
+                </div>
+
+                <!-- Download Button -->
+                <button id="download-btn" class="download-btn">Download Meme</button>
+
+                <!-- Text Controls -->
+                <div class="controls">
+                    <h3 class="controls-title">Add Text</h3>
+                    
+                    <div id="text-editors-list" class="text-editors-list">
+                        <!-- Text editors will be added here dynamically -->
+                    </div>
+
+                    <button id="add-text-btn" class="add-text-btn-block">Add another text</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
