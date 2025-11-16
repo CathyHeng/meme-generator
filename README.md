@@ -2,6 +2,10 @@
 
 A modern, feature-rich meme generator web application with an intuitive drag-and-drop interface.
 
+## 🚀 [Try the Live Demo](https://cathyheng.github.io/meme-generator/)
+
+Create memes instantly - no installation required!
+
 ## ✨ Features
 
 - **8 Popular Meme Templates**: Choose from classic memes like "Always Has Been", "This is Fine", "Distracted Boyfriend", and more
