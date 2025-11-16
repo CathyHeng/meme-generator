@@ -2,10 +2,6 @@
 
 A modern, feature-rich meme generator web application with an intuitive drag-and-drop interface.
 
-![Meme Generator](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
 ## ✨ Features
 
 - **8 Popular Meme Templates**: Choose from classic memes like "Always Has Been", "This is Fine", "Distracted Boyfriend", and more
