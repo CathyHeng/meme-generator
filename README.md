@@ -108,10 +108,6 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 
 This project is open source and available under the [MIT License](LICENSE).
 
-## 👨‍💻 Author
-
-Created with ❤️ by [Your Name]
-
 ## 🌟 Acknowledgments
 
 - Meme templates sourced from imgflip and various meme archives
